@@ -24,7 +24,7 @@ def loadfmap( fname ):
 
 def write_nmap( fo, nmap ):
     for i in range( len(nmap) ):
-        fo.write('%d\t%s\ti\n' % (i, nmap[i]) )
+        fo.write('%d\t%s\t\n' % (i, nmap[i]) )
 
 # start here
 fmap, nmap = loadfmap( 'agaricus-lepiota.fmap' )
